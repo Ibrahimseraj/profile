@@ -1,0 +1,76 @@
+.login-con {
+    width: 100%;
+}
+
+.login {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.login-details {
+    margin-top: 50px;
+}
+
+.login-details form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-details form input {
+    margin-top: 15px;
+    height: 20px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login-details form button {
+    height: 30px;
+    background-color: #3CB371;
+    color: white;
+    border: 1px  solid #3CB371;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.adding-navbar-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-logo {
+    color: #3CB371;
+    font-family: 'Cinzel Decorative', 'Amita', 'Ms Madi', cursive;
+}
+
+.link-to-register {
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    .login {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .login {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .login {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .login {
+        width: 100%;
+    }
+}

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+#experience {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Amita', cursive;
+    font-family: 'Carter One', system-ui;
+}
+
+
+.experience-container {
+    margin-top: 100px;
+    font-family: 'Josefin  Sans', sans-serif;
+}
+
+.job-experience-container {
+    margin-top: 25px;
+    display: flex;
+}
+
+.job-details-container {
+    width: 30%;
+    background-color: whitesmoke;
+}
+
+.job-details {
+    display: flex;
+}
+
+.job-description {
+    width: 70%;
+}
+
+.job-type {
+    margin-left: 10px;
+}
+
+.spriting {
+    margin-left: 10px;
+}
+
+.add-experience {
+    background-color: white;
+    border: 2px solid #3CB371;
+    color: #3CB371;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: max-content;
+    height: 40px;
+}
+
+.add-experience:hover {
+    background-color: #3CB371;
+    color: white;
+    cursor: pointer;
+}
+
+.add-experience:active {
+    background-color: #3CB371;
+    color: white;
+    cursor: pointer;
+}
+
+.loading-experience-user {
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    #con {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    #con {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    #con {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    #con {
+        width: 100%;
+    }
+    .job-details-container h1 {
+        font-size: large;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    #con {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .job-experience-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .job-details-container {
+        width: 70%;
+    }
+    .job-description {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 441px) {
+
+}
+
+
+@media all and (max-width: 366px) {
+
+}

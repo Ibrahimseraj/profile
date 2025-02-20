@@ -1,0 +1,68 @@
+.get-licensesAndCertificates-container {
+    width: 100%;
+}
+
+.get-licensesAndCertificates {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-bar-getting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.get-logo {
+    color: #3CB371;
+    font-family: 'Cinzel Decorative', 'Amita', 'Ms Madi', cursive;
+}
+
+.what-are-you-getting {
+    font-family: 'Carter One', system-ui;
+}
+
+.get-licensesAndCertificates-details {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.get-licensesAndCertificates-details img {
+    margin-top: 30px;
+    width: 70%;
+    height: 57%;
+}
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .get-licensesAndCertificates {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .get-licensesAndCertificates {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .get-licensesAndCertificates {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .get-licensesAndCertificates {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .get-licensesAndCertificates {
+        width: 100%;
+    }
+}

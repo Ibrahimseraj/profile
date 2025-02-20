@@ -1,0 +1,104 @@
+.update-education-page-con {
+    width: 100%;
+}
+
+.update-education-page {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-bar-updating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.updating-logo {
+    color: #3CB371;
+    font-family: 'Cinzel Decorative', 'Amita', 'Ms Madi', cursive;
+}
+
+.what-are-you-updating {
+    font-family: 'Carter One', system-ui;
+}
+
+.updating-details-education {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.updating-details-education input {
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+}
+
+.updating-details-education button {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1024px) {
+    .update-education-page {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .update-education-page {
+        width: 100%;
+    }
+    .updating-details-education input {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .update-education-page {
+        width: 100%;
+    }
+    .updating-details-education input {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .update-education-page {
+        width: 100%;
+    }
+    .updating-details-education input {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .update-education-page {
+        width: 100%;
+    }
+    .updating-details-education input {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .update-education-page {
+        width: 100%;
+    }
+    .updating-details-education input {
+        width: 100%;
+    }
+}

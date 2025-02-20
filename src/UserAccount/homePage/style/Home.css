@@ -1,0 +1,184 @@
+.home {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-info {
+    margin-left: 50px;
+}
+
+.home h4 {
+    color: #3CB371;
+    font-family: 'Crimson Text', serif;
+    margin: 10px;
+}
+
+.home h1 {
+    font-family: 'Cinzel', serif;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.home h3 {
+    margin: 10px;
+    font-family: 'Amiri', serif;
+}
+
+.home-img-con {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    bottom: 120px;
+}
+
+.ibrahim-hello-img {
+    width: 100%;
+    height: 100%;
+}
+
+.update-name-occupation {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.copy-url {
+    color: black;
+    cursor: pointer;
+}
+
+#loading-home-user {
+    background-color: #3CB371;
+    position: absolute;
+    left: 200px;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    #con {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    #con {
+        width: 100%;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .about-me {
+        margin-top: 150px;
+    }
+    .submit {
+        width: 38%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-description {
+        margin-left: 10px;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .about-me-description h3 {
+        font-size: medium;
+    }
+    .form {
+        width: 95%;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+@media all and (max-width: 366px) {
+    .home-info {
+        margin-left: 30px;
+    }
+}

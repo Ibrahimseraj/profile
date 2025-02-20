@@ -1,0 +1,100 @@
+.profile-pic-con {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#file-input {
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.previewphoto-pic {
+    width: 350px;
+    height: 350px;
+    background-color: brown;
+    border-radius: 10px;
+}
+
+.profile-pic-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-pic-button {
+    margin-top: 10px;
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.iiiii {
+    width: 250px;
+    height: 250px;
+}
+
+.imginut {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.addimageicon {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .profile-pic-con {
+        width: 100%;
+    }
+    .updating-details-experience input {
+        width: 100%;
+    }
+    #employment-type {
+        width: 100%;
+    }
+    #location-type {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .profile-pic-con {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .profile-pic-con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .profile-pic-con {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .profile-pic-con {
+        width: 100%;
+    }
+}

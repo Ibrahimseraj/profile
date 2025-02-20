@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+#experience {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Amita', cursive;
+    font-family: 'Carter One', system-ui;
+}
+
+.experience-container {
+    margin-top: 100px;
+    font-family: 'Josefin  Sans', sans-serif;
+}
+
+.job-experience-container {
+    margin-top: 25px;
+    display: flex;
+}
+
+.job-details {
+    display: flex;
+}
+
+.job-description {
+    margin-left: 50px;
+}
+
+.job-type {
+    margin-left: 10px;
+}
+
+.spriting {
+    margin-left: 10px;
+}
+
+.add-experience {
+    background-color: white;
+    border: 2px solid #3CB371;
+    color: #3CB371;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: max-content;
+    height: 40px;
+}
+
+.add-experience:hover {
+    background-color: #3CB371;
+    color: white;
+    cursor: pointer;
+}
+
+.add-experience:active {
+    background-color: #3CB371;
+    color: white;
+    cursor: pointer;
+}
+
+.experience-all-con {
+    margin-bottom: 50px;
+}
+
+.loading-experience-visiter {
+    text-align: center;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 481px) {
+    .job-experience-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .job-description {
+        margin: 0;
+        margin-top: 10px;
+    }
+}

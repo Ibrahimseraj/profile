@@ -1,0 +1,178 @@
+.add-experience-page-con {
+    width: 100%;
+}
+
+.add-experience-page {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-bar-adding {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adding-logo {
+    color: #3CB371;
+    font-family: 'Cinzel Decorative', 'Amita', 'Ms Madi', cursive;
+}
+
+.what-are-you-adding {
+    font-family: 'Carter One', system-ui;
+}
+
+.add-experience-details {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.add-experience-details input {
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+}
+
+.add-experience-details textarea {
+    width: 60%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+    resize: none;
+}
+
+.add-experience-button {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#employment-type {
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+}
+
+#location-type {
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+}
+
+.date-add-exp {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    .add-experience-page {
+        width: 80%;
+    }
+    .add-experience-details input {
+        width: 100%;
+    }
+    .add-experience-details textarea {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .add-experience-page {
+        width: 100%;
+    }
+    .add-experience-details input {
+        width: 100%;
+    }
+    .add-experience-details textarea {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    .add-experience-page {
+        width: 100%;
+    }
+    .add-experience-details input {
+        width: 100%;
+    }
+    .add-experience-details textarea {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    .add-experience-page {
+        width: 100%;
+    }
+    .add-experience-details input {
+        width: 100%;
+    }
+    .add-experience-details textarea {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .add-experience-page {
+        width: 100%;
+    }
+    .add-experience-details input {
+        width: 100%;
+    }
+    .add-experience-details textarea {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .add-experience-page {
+        width: 100%;
+    }
+    .add-experience-details input {
+        width: 100%;
+    }
+    .add-experience-details textarea {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .add-experience-page {
+        width: 100%;
+    }
+    .add-experience-details textarea {
+        width: 100%;
+    }
+    .add-experience-details input {
+        width: 100%;
+    }
+}

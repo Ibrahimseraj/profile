@@ -1,0 +1,26 @@
+#loading {
+    overflow: hidden;
+}
+
+.image-and-loading-con {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.image-and-loading-con img {
+    width: 100%;
+}
+
+.loading-animation {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media (max-width: 830px) {
+    #loading {
+        margin: 0;
+    }
+    .image-and-loading-con {
+        width: 100%;
+    }
+}

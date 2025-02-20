@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+.add-profile-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-profile-logo {
+    color: #3CB371;
+    font-family: 'Cinzel Decorative', 'Amita', 'Ms Madi', cursive;
+}
+
+.what-are-you-adding {
+    font-family: 'Carter One', system-ui;
+}
+
+.add-profile-details {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.add-profile-details button {
+    font-size: large;
+    color: black;
+    background-color: #3CB371;
+    color: white;
+    width: 40%;
+    height: 28px;
+    border-radius: 5px;
+    border: #3CB371;
+    cursor: pointer;
+}

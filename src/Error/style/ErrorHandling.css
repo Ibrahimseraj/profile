@@ -1,0 +1,43 @@
+
+
+.error-handling {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.error-handling-error-icon {
+    width: 100%;
+    height: 150px;
+    color: red;
+}
+
+.error-handling-info-con {
+    width: 100%;
+    text-align: center;
+}
+
+.error-handling-info-con button {
+    width: 100px;
+    height: 35px;
+    background-color: #3CB371;
+    color: white;
+    border: 1px solid #3CB371;
+    border-radius: 50px;
+    margin-top: 17px;
+}
+
+.Link-to-another-com {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 830px) {
+    .error-handling-con {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .error-handling {
+        width: 100%;
+    }
+}

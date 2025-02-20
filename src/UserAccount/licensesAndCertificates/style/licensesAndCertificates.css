@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+.project {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Carter One', system-ui;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.projects h1 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Amita', cursive;
+}
+
+#course-organization {
+    font-family: 'Carter  One', system-ui;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Josefin  Sans', sans-serif;
+}
+
+#course-type {
+    font-family: 'Carter  One', system-ui;
+    font-family: 'Crimson Text', serif;
+    font-family: 'Josefin  Sans', sans-serif;
+}
+
+#course-certificate {
+    width: 100px;
+    height: 100px;
+}
+
+#course-certificate img {
+    width: 100%;
+    height: 100%;
+}
+
+#courses {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-course {
+    background-color: white;
+    border: 2px solid #3CB371;
+    color: #3CB371;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    width: max-content;
+    height: 35px;
+}
+
+.add-course:hover {
+    background-color: #3CB371;
+    color: white;
+    cursor: pointer;
+}
+
+.add-course:active {
+    background-color: #3CB371;
+    color: white;
+    cursor: pointer;
+}
+
+.update-course {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.delete-course {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    #con {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    #con {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    #con {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    #con {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .course-details h1 {
+        font-size: large;
+    }
+}
+
+@media all and (max-width: 441px) {
+    
+}
+
+
+@media all and (max-width: 366px) {
+    
+}

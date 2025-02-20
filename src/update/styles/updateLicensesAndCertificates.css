@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.courses-update-con {
+    width: 100%;
+}
+
+.courses-update {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.courses-update-details {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-update-details input {
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+}
+
+.courses-update-details button {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.certificate-img {
+    width: 350px;
+}
+
+@media all and (max-width: 1024px) {
+    .courses-update {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .courses-update {
+        width: 100%;
+    }
+    .courses-update-details input {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .courses-update {
+        width: 100%;
+    }
+    .courses-update-details input {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .courses-update {
+        width: 100%;
+    }
+    .courses-update-details input {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .courses-update {
+        width: 100%;
+    }
+    .courses-update-details input {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .courses-update {
+        width: 100%;
+    }
+    .courses-update-details input {
+        width: 100%;
+    }
+}

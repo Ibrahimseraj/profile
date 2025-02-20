@@ -1,0 +1,185 @@
+.landing-page-con {
+    width: 100%;
+}
+
+.landing-page {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.lading-page-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lading-page-navbar h1 {
+    font-family: 'Cinzel Decorative', 'Amita', 'Ms Madi', cursive;
+    color: #3CB371;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.register-lading-page {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    float: right;
+    padding: 20px;
+}
+
+.login-lading-page {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    float: right;
+    padding: 20px;
+}
+
+.register-lading-page:hover {
+    color: #3CB371;
+    text-decoration: underline;
+    text-decoration-color: #3CB371;
+    text-underline-offset: 10px;
+    transition: color 150ms 150ms linear;
+}
+
+.login-lading-page:hover {
+    color: #3CB371;
+    text-decoration: underline;
+    text-decoration-color: #3CB371;
+    text-underline-offset: 10px;
+    transition: color 150ms 150ms linear;
+}
+
+.image-linkedin {
+    width: 50%;
+}
+
+.landing-page-home {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.landing-page-title {
+    margin-top: 100px;
+    font-family: 'Carter One', system-ui;
+}
+
+.landing-page-image-logo {
+    width: 50%;
+}
+
+.landing-page-image-logo img {
+    width: 100%;
+}
+
+.linkedin-how-to-share {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.landing-page-share-linkedin-image {
+    width: 50%;
+}
+
+.landing-page-share-linkedin-image img {
+    width: 100%;
+}
+
+.landing-page-share-linkedin-title {
+    margin-top: 100px;
+    font-family: 'Carter One', system-ui;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    
+}
+
+@media all and (max-width: 877px) {
+    .landing-page-home {
+        display: flex;
+        flex-direction: column;
+      }
+      
+    .landing-page-title {
+        order: 2;
+    }
+      
+    .landing-page-image-logo {
+        order: 1;
+    }
+      
+    .landing-page-image-logo img {
+        max-width: 100%;
+        height: auto;
+    }
+    .linkedin-how-to-share {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+}
+
+
+@media all and (max-width: 767px) {
+    .lading-page-navbar h1 {
+        font-size: x-large;
+    }
+    .register-lading-page {
+        font-size: medium;
+    }
+    
+    .login-lading-page {
+        font-size: medium;
+    }
+    .landing-page {
+        width: 100%;
+    }
+    .landing-page-image-logo {
+        width: 100%;
+    }
+    .landing-page-share-linkedin-image {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 631px) {
+    .lading-page-navbar h1 {
+        font-size: large;
+    }
+    .register-lading-page {
+        font-size: x-small;
+    }
+    
+    .login-lading-page {
+        font-size: x-small;
+    }
+}
+
+@media all and (max-width: 570px) {
+    
+}
+
+
+@media all and (max-width: 481px) {
+    .landing-page {
+        width: 100%;
+    }
+    .landing-page-image-logo {
+        width: 100%;
+    }
+    .landing-page-share-linkedin-image {
+        width: 100%;
+    }
+}

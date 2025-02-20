@@ -1,0 +1,144 @@
+.update-experience-page {
+    width: 100%;
+}
+
+.update-experience-page {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-bar-updating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.updating-logo {
+    color: #3CB371;
+    font-family: 'Cinzel Decorative', 'Amita', 'Ms Madi', cursive;
+}
+
+.what-are-you-updating {
+    font-family: 'Carter One', system-ui;
+}
+
+.updating-details-experience {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.updating-details-experience input {
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+}
+
+.update-experience-submit {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.desc-update-experience {
+    resize: none;
+    margin-top: 25px;
+    height: 200px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+}
+
+@media all and (max-width: 1024px) {
+    .update-experience-page {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .update-experience-page {
+        width: 100%;
+    }
+    .updating-details-experience input {
+        width: 100%;
+    }
+    #employment-type {
+        width: 100%;
+    }
+    #location-type {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .update-experience-page {
+        width: 100%;
+    }
+    .updating-details-experience input {
+        width: 100%;
+    }
+    #employment-type {
+        width: 100%;
+    }
+    #location-type {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .update-experience-page {
+        width: 100%;
+    }
+    .updating-details-experience input {
+        width: 100%;
+    }
+    #employment-type {
+        width: 100%;
+    }
+    #location-type {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .update-experience-page {
+        width: 100%;
+    }
+    .updating-details-experience input {
+        width: 100%;
+    }
+    #employment-type {
+        width: 100%;
+    }
+    #location-type {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .update-experience-page {
+        width: 100%;
+    }
+    .updating-details-experience input {
+        width: 100%;
+    }
+    #employment-type {
+        width: 100%;
+    }
+    #location-type {
+        width: 100%;
+    }
+}

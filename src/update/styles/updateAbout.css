@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.update-about-con {
+    width: 100%;
+}
+
+.update-about {
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.updating-details-about {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.updating-details-about textarea {
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+    height: 150px;
+    font-family: 'Josefin  Sans', sans-serif;
+    font-family: 'Poppins ', sans-serif;
+    font-weight: bold;
+    width: 60%;
+    resize: none;
+    margin: 0 auto;
+}
+
+.updating-details-about button {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1024px) {
+    .update-about {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .update-about {
+        width: 100%;
+    }
+    .updating-details-about textarea {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .update-about {
+        width: 100%;
+    }
+    .updating-details-about textarea {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .update-about {
+        width: 100%;
+    }
+    .updating-details-about textarea {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 441px) {
+    .update-about {
+        width: 100%;
+    }
+    .updating-details-about textarea {
+        width: 100%;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .update-about {
+        width: 100%;
+    }
+    .updating-details-about textarea {
+        width: 100%;
+    }
+}

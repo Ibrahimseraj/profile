@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+#education {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Amita', cursive;
+    font-family: 'Carter One', system-ui;
+}
+
+.education-container {
+    margin-top: 100px;
+}
+
+.add-education {
+    background-color: white;
+    border: 2px solid #3CB371;
+    color: #3CB371;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    width: max-content;
+    height: 40px;
+}
+
+.add-education:hover {
+    background-color: #3CB371;
+    color: white;
+    cursor: pointer;
+}
+
+.add-education:active {
+    background-color: #3CB371;
+    color: white;
+    cursor: pointer;
+}
+
+.kokoko {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.update-education {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.delete-education {
+    background-color: red;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.loading-education-visiter {
+    text-align: center;
+    margin-top: 80px;
+}

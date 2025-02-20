@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+.about-me {
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Carter One', system-ui;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.about {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-me-description {
+    width: 80%;
+}
+
+.about-me-description h3 {
+    word-wrap: break-word;
+}
+
+/*
+.about-image-ibrahim  {
+    width: 350px;
+    height: 350px;
+}
+
+.about-image-ibrahim img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+*/
+
+.about-update-link {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.loading-about-visiter {
+    text-align: center;
+    margin-top: 70px;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    #con {
+        width: 80%;
+    }
+}
+
+
+@media all and (max-width: 1024px) and (min-width: 878px) {
+    #con {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+        width: 98%;
+    }
+    .submit {
+        width: 30%;
+    }
+}
+
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+        width: 98%;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-image-ibrahim {
+        margin: 0 auto;
+    }
+    .about-me-description {
+        margin-left: 10px;
+        width: 98%;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .about-me {
+        margin-top: 150px;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    #con {
+        width: 100%;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-me-description {
+        width: 97%;
+    }
+    .home-img-con {
+        display: none;
+    }
+    .about-me {
+        margin-top: 120px;
+    }
+    .about-me-description h3 {
+        font-size: medium;
+    }
+    .about-me {
+        margin-top: 300px;
+    }
+    .about-image-ibrahim {
+        margin-left: 0;
+    }
+}
+
+
+@media all and (max-width: 366px) {
+    .home-info {
+        margin-left: 30px;
+    }
+}

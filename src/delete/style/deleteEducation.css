@@ -1,0 +1,143 @@
+.delete-education-page-con {
+    width: 100%;
+}
+
+.delete-education-page {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-bar-delete {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-logo {
+    color: #3CB371;
+    font-family: 'Cinzel Decorative', 'Amita', 'Ms Madi', cursive;
+}
+
+.what-are-you-delete {
+    font-family: 'Carter One', system-ui;
+}
+
+.delete-education-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 40%;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+}
+
+.delete-education-details form input {
+    width: 60%;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-family: 'Carter One', system-ui;
+    border: 2px solid #3CB371;
+    border-radius: 5px;
+}
+
+.delete-education-details p {
+    margin-top: 10px;
+}
+
+/*
+.delete-education-details button {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+*/
+
+.delete-education-buttons button {
+    background-color: #3CB371;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    width: 80px;
+    height: 25px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.delete-education-buttons button:nth-child(1) {
+    margin-right: 10px;
+    background-color: gray;
+}
+
+.delete-education-buttons button:nth-child(2) {
+    margin-left: 10px;
+}
+
+.delete-education-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+@media all and (max-width: 1279px) and (min-width: 1025px) {
+    .delete-education-details {
+        width: 60%;
+    }
+}
+
+
+@media all and (max-width: 1024px) {
+    .delete-education-details {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 877px) and (min-width: 768px) {
+    .delete-education-details {
+        width: 90%;
+    }
+}
+
+
+@media all and (max-width: 767px) and (min-width: 631px) {
+    .delete-education-details {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 631px) and (min-width: 557px) {
+    .delete-education-details {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 556px) and (min-width: 481px) {
+    .delete-education-details {
+        width: 90%;
+    }
+}
+
+
+@media all and (max-width: 481px) {
+    .delete-education-page {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .delete-education-details {
+        width: 90%;
+    }
+    .what-are-you-delete {
+        font-size: x-large;
+    }
+}
