@@ -38,7 +38,7 @@ function Home() {
     fetchData();
   }, [navigate]);
 
-  const textToCopy = `http://localhost:3000/profile/${portfolioId}`;
+  const textToCopy = `https://get-profile.vercel.app/profile/${portfolioId}`;
   const tempInputRef = useRef(null);
 
   const handleCopy = () => {
